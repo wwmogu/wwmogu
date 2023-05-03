@@ -38,24 +38,23 @@
   
 <details>
   <summary>Contribution visualization</summary>
-  
   <p align="center">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
         srcset="
-          https://raw.githubusercontent.com/wwmogu/a1779748/65fd387c267f5a52ee056d2b69a3684c7a74b92c/github-a1779748-contribution.svg
+          https://raw.githubusercontent.com/wwmogu/wwmogu/snk_svg/github-contribution-grid-snake.svg
         "
       />
       <source
         media="(prefers-color-scheme: light)"
         srcset="
-          https://raw.githubusercontent.com/wwmogu/a1779748/65fd387c267f5a52ee056d2b69a3684c7a74b92c/github-a1779748-contribution.svg
+          https://raw.githubusercontent.com/wwmogu/wwmogu/snk_svg/github-contribution-grid-snake.svg
         "
       />
       <img
         alt="github contribution grid snake animation"
-        src="https://raw.githubusercontent.com/wwmogu/a1779748/65fd387c267f5a52ee056d2b69a3684c7a74b92c/github-a1779748-contribution.svg"
+        src="https://raw.githubusercontent.com/wwmogu/wwmogu/snk_svg/github-contribution-grid-snake.svg"
       />
     </picture>
   </p>
