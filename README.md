@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, This is Dong</h1>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=wwmogu&label=Profile%20views&color=0e75b6&style=flat" alt="wwmogu" /> 
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=wwmogu&label=Wow&color=orange&style=plastic" alt="wwmogu" /> 
 
 
   
