@@ -7,7 +7,7 @@
 <details>
   <summary>Introductions</summary>
 
-  - 🔭 I’m currently working on hardware modeling.
+  - 🔭 I’m currently working on chip modeling.
 
   - 📫 Reach me at **wwmogu@gmail.com**
 
