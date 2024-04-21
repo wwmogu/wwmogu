@@ -7,7 +7,7 @@
 <details>
   <summary>Introductions</summary>
 
-  - 🔭 I’m currently working on chip modeling and OpenACC.
+  <!--- - 🔭 I’m currently working on chip modeling and OpenACC. --->
 
   - 📫 Reach me at **wwmogu@gmail.com**
 
@@ -15,7 +15,7 @@
 </details>
   
   
-  
+<!---  
 <details>
   <summary>GitHub Stats</summary>
   
@@ -23,7 +23,7 @@
     <img height="50%" width="50%" align="center"  src="https://github-readme-stats.vercel.app/api?username=wwmogu&show_icons=true&theme=vue-dark" alt="wwmogu" />
   </p>
 </details>
-  
+--->  
   
   
 <details>
