@@ -65,7 +65,7 @@
   <summary>Zoo</summary>
   
   <p align="center">
-    <a href="https://github.com/devxb/gitanimals">
+    <a href="https://render.gitanimals.org/farms/wwmogu">
     <img
       src="https://render.gitanimals.org/farms/wwmogu"
       width="600"
