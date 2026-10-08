@@ -8,7 +8,7 @@
 
 <div align="center">
 
-# Hi there 👋, I'm 0xDo0wee
+# Hi there 👋, I'm wwmogu
 
 Adelaide, Australia · he/him
 
