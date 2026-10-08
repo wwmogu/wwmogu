@@ -27,7 +27,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost.svg" />
-      <img alt="AI Cost ranking (monthly, AUD): #1 ChatGPT Pro 100 A$154.99, #2 Grok Bot via X Premium+ A$80, #3 Claude Pro A$30" src="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost.svg" />
+      <img alt="AI Cost ranking (monthly, AUD): #1 ChatGPT Pro 100 A$155, #2 Grok Bot via X Premium+ A$62, #3 Claude Pro A$34" src="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost.svg" />
     </picture>
   </p>
 
