@@ -1,43 +1,50 @@
+# Generates the contribution-snake SVGs used in README.md and publishes them
+# to the `snk_svg` branch:
+#   https://raw.githubusercontent.com/wwmogu/wwmogu/snk_svg/github-contribution-grid-snake.svg
+#   https://raw.githubusercontent.com/wwmogu/wwmogu/snk_svg/github-contribution-grid-snake-dark.svg
 name: generate animation
 
 on:
-  # run automatically every 24 hours
+  # once a day (00:00 UTC ≈ 10:30 Adelaide, daylight time)
   schedule:
-    - cron: "0 */24 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "0 0 * * *"
+
+  # run manually from the Actions tab
   workflow_dispatch:
-  
-  # run on every push on the master branch
+
+  # run when the profile repo's default branch changes
   push:
     branches:
-    - master
-    
- 
+      - main
+
+# needed to push the generated SVGs to the snk_svg branch
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate-snake-game-from-github-contribution-grid
-        uses: Platane/snk@v3
+      # svg-only variant: same output as Platane/snk@v3, but faster (no Docker image)
+      - name: Generate snake from contribution grid
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             snk_dist/github-contribution-grid-snake.svg
             snk_dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push SVGs to the snk_svg branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: snk_svg
           build_dir: snk_dist
+          commit_message: "chore: update contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
