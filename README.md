@@ -9,7 +9,8 @@
 
 以烟火谋生，以热爱养心。
 
-<a href="mailto:wwmogu@gmail.com"><img src="https://img.shields.io/badge/wwmogu@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a> <img src="https://komarev.com/ghpvc/?username=wwmogu&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views" />
+<a href="mailto:wwmogu@gmail.com"><img src="https://img.shields.io/badge/wwmogu@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a> 
+<!-- <img src="https://komarev.com/ghpvc/?username=wwmogu&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views" /> -->
 
 </div>
 
