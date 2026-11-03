@@ -23,19 +23,19 @@
   </p>
 
   <!-- Static images in assets/ (no workflow needed). Ranked by monthly subscription price in AUD
-       (App Store Australia, incl. GST, checked Oct 2026). Edit/replace the SVGs to update. -->
+       (prices as paid, updated Nov 2026). Edit/replace the SVGs to update. -->
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost.svg" />
-      <img alt="AI Cost ranking (monthly, AUD): #1 ChatGPT Pro 100 A$155, #2 Grok Bot via X Premium+ A$62, #3 Claude Pro A$34" src="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost.svg" />
+      <img alt="AI Cost ranking (monthly, AUD): #1 Claude Max A$170, #2 ChatGPT Pro 100 A$155, #3 Grok Bot Super A$150" src="https://raw.githubusercontent.com/wwmogu/wwmogu/main/assets/ai-cost.svg" />
     </picture>
   </p>
 
 <details>
   <summary>About me</summary>
 
-  - 🌱 Drained by my last job, so I'm taking some time to recharge and build things I actually enjoy.
+  - 🌱 Drained by my previous job, so I'm taking some time to recharge and build things I actually enjoy.
 
   <!-- TODO:
        Un-comment / reword it in the future
